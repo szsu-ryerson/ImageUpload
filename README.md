@@ -17,18 +17,18 @@ https://boiling-peak-13795.herokuapp.com/images#
 
 * Amazon S3 storage service: [Tutorial](https://www.lynda.com/Flask-tutorials/Amazon-Simple-Storage-Service-S3-setup/704154/5034692-4.html)
 
-* PostgreSQL database [Install Heroku CLI](https://www.lynda.com/Flask-tutorials/)   [Create a POstgreSQL database](https://www.lynda.com/Flask-tutorials/Create-PostgreSQL-database/704154/5034691-4.html)
+* PostgreSQL database [Install Heroku CLI](https://www.lynda.com/Flask-tutorials/) /  [Create a POstgreSQL database](https://www.lynda.com/Flask-tutorials/Create-PostgreSQL-database/704154/5034691-4.html)
 
 
 ### Configuration
-     UPdate the following fields in the file "config.py"
+*UPdate the following fields in the file "config.py"
 
-		* SQLALCHEMY_DATABASE_URI
-		* S3_BUCKET
-		* S3_SECRET
-		* S3_KEY
-		* S3_LOCATION
-		* SECRET_KEY
+	* SQLALCHEMY_DATABASE_URI
+	* S3_BUCKET
+	* S3_SECRET
+	* S3_KEY
+	* S3_LOCATION
+	* SECRET_KEY
 
 
 
