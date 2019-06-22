@@ -21,7 +21,7 @@ https://boiling-peak-13795.herokuapp.com/images#
 
 
 ### Configuration
-*UPdate the following fields in the file "config.py"
+Update the following fields in the file "config.py"
 
 	* SQLALCHEMY_DATABASE_URI
 	* S3_BUCKET
@@ -30,13 +30,37 @@ https://boiling-peak-13795.herokuapp.com/images#
 	* S3_LOCATION
 	* SECRET_KEY
 
+### Break down into end to end tests
 
+Explain what these tests test and why
+
+```
+Give an example
+```
 
 ## Deploy the server application to Heroku
-* clone the repo
-* In the terminal, go into the directory for this project
-	* Create a git repository: git init
-	* Creat a new application in Heroku: heroku create
-	* Add the files to the repository: git add -A
-	* Commit the files: git commit -a -m "Initial application setup"
-	* Push the file to Heroku: git push heroku master
+clone the repo
+In the terminal, go into the directory for this project and use the following commands:
+
+Create a git repository
+```
+git init
+```
+
+Creat a new application in Heroku
+```
+heroku create
+```
+
+Add the files to the repository
+```
+git add -A
+```
+Commit the files
+```
+git commit -a -m "Initial application setup"
+```
+
+Push the file to Heroku
+```git push heroku master
+```
