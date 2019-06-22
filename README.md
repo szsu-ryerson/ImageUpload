@@ -9,6 +9,7 @@ https://boiling-peak-13795.herokuapp.com/images#
 
 ## Image moderation 
 * [Sightengine](https://sightengine.com/): The SDK that will allow us to automatically moderate our images
+* Models used: Nudity detection, Celebrities, Scammers, Weapons
 
 ## Plugins
 * [Image gallery](https://github.com/mohamednasr/MAgallery)
