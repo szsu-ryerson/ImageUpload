@@ -10,6 +10,9 @@ https://boiling-peak-13795.herokuapp.com/images#
 ## Image moderation 
 * [Sightengine](https://sightengine.com/): The SDK that will allow us to automatically moderate our images
 
+## Plugins
+* [Image gallery](https://github.com/mohamednasr/MAgallery)
+* [Show password](http://bootstrap-show-password.wenzhixin.net.cn/home/)
 
 ## Getting Started
 
