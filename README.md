@@ -1,6 +1,6 @@
 # CCPS 530 project
 
-A flask web application that allow different users to upload images and also view images upload by others
+A flask web application that allow different users to upload images and also view images upload by others. The images uploaded will be moderated by Sightengine and stored in Amazon S3.
 
 
 ## Online Demo
