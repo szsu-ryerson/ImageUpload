@@ -15,7 +15,7 @@ https://boiling-peak-13795.herokuapp.com/images#
 
 ### Prerequisites
 
-* Amazon S3 storage service: [Tutorial](https://www.lynda.com/Flask-tutorials/Amazon-Simple-Storage-Service-S3-setup/704154/5034692-4.html)
+* Amazon S3 storage service: [Set up a S3 bucket](https://www.lynda.com/Flask-tutorials/Amazon-Simple-Storage-Service-S3-setup/704154/5034692-4.html)
 
 * PostgreSQL database [Install Heroku CLI](https://www.lynda.com/Flask-tutorials/) /  [Create a POstgreSQL database](https://www.lynda.com/Flask-tutorials/Create-PostgreSQL-database/704154/5034691-4.html)
 
