@@ -21,18 +21,18 @@ https://boiling-peak-13795.herokuapp.com/images#
 
 
 ### Configuration
+Clone the [repo](https://github.com/szsu-ryerson/ImageUpload)
 Update the following fields in the file "config.py"
 
-	* SQLALCHEMY_DATABASE_URI
-	* S3_BUCKET
-	* S3_SECRET
-	* S3_KEY
-	* S3_LOCATION
-	* SECRET_KEY
+* SQLALCHEMY_DATABASE_URI
+* S3_BUCKET
+* S3_SECRET
+* S3_KEY
+* S3_LOCATION
+* SECRET_KEY
 
 
 ## Deploy the application to Heroku
-Clone the [repo](https://github.com/szsu-ryerson/ImageUpload)
 In the terminal, go into the directory for this project and use the following commands:
 
 Create a git repository
