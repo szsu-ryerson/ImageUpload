@@ -62,5 +62,6 @@ git commit -a -m "Initial application setup"
 ```
 
 Push the file to Heroku
-```git push heroku master
+```
+git push heroku master
 ```
