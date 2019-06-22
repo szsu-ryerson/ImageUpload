@@ -30,16 +30,9 @@ Update the following fields in the file "config.py"
 	* S3_LOCATION
 	* SECRET_KEY
 
-### Break down into end to end tests
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deploy the server application to Heroku
-clone the repo
+## Deploy the application to Heroku
+Clone the [repo](https://github.com/szsu-ryerson/ImageUpload)
 In the terminal, go into the directory for this project and use the following commands:
 
 Create a git repository
