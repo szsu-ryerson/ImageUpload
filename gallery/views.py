@@ -149,27 +149,3 @@ def images():
 
 
 
-"""
-@app.route('/images')
-def images():
-    #images2 = list_files_in_s3(app.config["S3_BUCKET"])
-    fileNames=[]
-    user = models.Appuser.query.filter_by(email=current_user.get_id()).first()
-    allUsers_original = models.Appuser.query.with_entities(models.Appuser.email).all()
-    allUsers=[value for value, in allUsers_original]
-
-
-    userEmail = '';
-    if(user is not None):
-        #images = models.Appimage.query.filter_by(appuser_id = user.get_id()).with_entities(models.Appimage.URL, models.Appimage.appuser_id).all()
-        images = db.session.query(models.Appuser, models.Appimage).join(models.Appimage).filter_by(appuser_id = user.get_id()).with_entities(models.Appimage.URL, models.Appuser.email).all()
-        fileNames = [[value,id] for (value,id) in images]
-        userEmail = user.email
-    else:
-        images = db.session.query(models.Appimage, models.Appuser).join(models.Appuser).with_entities(models.Appimage.URL, models.Appuser.email).all()
-        fileNames = [[value,id] for (value,id) in images]
-        flash(fileNames)
-        
-
-    return render_template('images.html', fileNames=fileNames, user=userEmail, allUsers=allUsers)
-"""
