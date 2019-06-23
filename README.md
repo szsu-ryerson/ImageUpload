@@ -26,7 +26,8 @@ https://boiling-peak-13795.herokuapp.com/images#
 
 ### Configuration
 Clone the [repo](https://github.com/szsu-ryerson/ImageUpload)
-Update the following fields in the file "config.py"
+
+*Update the following fields in the file "config.py"
 
 * SQLALCHEMY_DATABASE_URI
 * S3_BUCKET
