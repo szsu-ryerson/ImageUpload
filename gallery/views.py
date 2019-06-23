@@ -85,7 +85,6 @@ def process_file():
         #Celebrity check: Probability that the face belongs to said celebrity
         #Weapon check: Probability that the image contains weapons
         #Scammer check: Probability that there is a scammer on the image
-        #Offensive check: Probability that the image contains offensive content
         if(float(output2["nudity"]["safe"])<0.5 or celeProb>0.8 or float(output2["weapon"])>0.4 or float(output2["scam"]["prob"])>0.3):
             delete_file_from_s3(app.config["S3_BUCKET"], file.filename)
             flash('Image denied')
